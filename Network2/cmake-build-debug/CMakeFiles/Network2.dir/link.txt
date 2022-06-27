@@ -1,0 +1,1 @@
+/usr/bin/clang++  -lpthread -g   CMakeFiles/Network2.dir/main.cpp.o CMakeFiles/Network2.dir/Server.cpp.o  -o Network2 
