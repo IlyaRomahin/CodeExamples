@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="network"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option output="/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/ulyssess/CLionProjects/NetworkLabs/Network1/../Network3/Socket"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/x86_64-linux-gnu/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-6.0/lib/clang/6.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test/fast">
+				<Option output="/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/ulyssess/CLionProjects/NetworkLabs/Network1/../Network3/Socket"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/x86_64-linux-gnu/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-6.0/lib/clang/6.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug/Makefile&quot;  VERBOSE=1 test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="network">
+				<Option output="/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug/network" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/ulyssess/CLionProjects/NetworkLabs/Network1/../Network3/Socket"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/x86_64-linux-gnu/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-6.0/lib/clang/6.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug/Makefile&quot;  VERBOSE=1 network"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="network/fast">
+				<Option output="/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug/network" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/ulyssess/CLionProjects/NetworkLabs/Network1/../Network3/Socket"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/x86_64-linux-gnu/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-6.0/lib/clang/6.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug/Makefile&quot;  VERBOSE=1 network/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ulyssess/CLionProjects/NetworkLabs/Network1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ulyssess/CLionProjects/NetworkLabs/Network1/ReplicateCounter.cpp">
+			<Option target="test"/>
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/ulyssess/CLionProjects/NetworkLabs/Network1/ReplicateCounter.h">
+			<Option target="test"/>
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/ulyssess/CLionProjects/NetworkLabs/Network1/main.cpp">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/ulyssess/CLionProjects/NetworkLabs/Network1/test.cpp">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/ulyssess/CLionProjects/NetworkLabs/Network3/Socket/MySocket.cpp">
+			<Option target="test"/>
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/ulyssess/CLionProjects/NetworkLabs/Network3/Socket/MySocket.h">
+			<Option target="test"/>
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/ulyssess/CLionProjects/NetworkLabs/Network1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

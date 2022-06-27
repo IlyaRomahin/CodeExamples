@@ -1,0 +1,1 @@
+/usr/bin/clang++  -g   CMakeFiles/network.dir/main.cpp.o CMakeFiles/network.dir/home/ulyssess/CLionProjects/NetworkLabs/Network3/Socket/MySocket.cpp.o CMakeFiles/network.dir/ReplicateCounter.cpp.o  -o network -lpthread 
