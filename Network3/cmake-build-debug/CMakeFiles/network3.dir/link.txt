@@ -1,0 +1,1 @@
+/usr/bin/clang++  -lpthread -g   CMakeFiles/network3.dir/main.cpp.o CMakeFiles/network3.dir/TreeNode.cpp.o CMakeFiles/network3.dir/Socket/MySocket.cpp.o  -o network3 -luuid 
